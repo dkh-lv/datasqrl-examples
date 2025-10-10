@@ -19,6 +19,7 @@ UsageAlert := SUBSCRIBE SELECT userid, total_tokens, window_start, window_time
 /*+query_by_all(userid) */
 UserTokenUsageHourly := DISTINCT _TokenUsageHourWindow ON userid, window_start ORDER BY window_time DESC;
 
+
 /*+query_by_all(userid) */
 UserTokenUsageByFiveMuniteWindow := DISTINCT _TokenUsage5MinuteWindowWindow ON userid, window_start ORDER BY window_time DESC;
 
