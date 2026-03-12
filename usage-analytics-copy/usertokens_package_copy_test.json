@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "script": {
+    "main": "usertokens.sqrl",
+    "config": {
+      "variant": "testdata"
+    }
+  }
+}
