@@ -4,7 +4,3 @@ CREATE TABLE UserTokens (
     `tokens` BIGINT NOT NULL,
     `request_time` TIMESTAMP_LTZ(3) NOT NULL METADATA FROM 'timestamp'
 );
-
-
-fix: minor update
-@datasqrl /deploy user-tokens-test --upgrade-deployment-name 5e4f58eca
